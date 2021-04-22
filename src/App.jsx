@@ -1,21 +1,15 @@
-//components
-import Header from './components/Header';
-import Main from './components/Main';
-import Menu from './components/Menu';
-import Content from './components/Content';
-import Footer from './components/Footer';
+import Feedback from './components/Feedback';
 
-const App = () => {
-  return (
-    <>
-      <Header />
-      <Main>
-        <Menu />
-        <Content />
-      </Main>
-      <Footer />
-    </>
-  );
-};
+import React, { Component } from 'react';
+
+class App extends Component {
+  render() {
+    return (
+      <>
+        <Feedback />
+      </>
+    );
+  }
+}
 
 export default App;
